@@ -20,6 +20,5 @@ class IdentityBlock:
         Forward pass: y = ReLU(W2 @ ReLU(W1 @ x)) + x
         """
         # YOUR CODE HERE
-        out = relu(x @ self.W1)
-        out = out @ self.W2
-        return out + x
+        # return relu( self.W2 @ relu(self.W1 @ x )  + x)
+        return relu( relu(x @ self.W1) @ self.W2) + x
