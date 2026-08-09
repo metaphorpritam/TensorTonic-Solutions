@@ -73,6 +73,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | ROW_NUMBER | Assign deterministic per-segment activity ranks with SQL ROW_NUMBER ordered by engagement score and username. | https://www.tensortonic.com/study-plans/sql-basics/sql/sql-row-number |
 | Self Join | Use a SQL self join to pair users with their referrers while labeling organic signups without a referral. | https://www.tensortonic.com/study-plans/sql-basics/sql/sql-self-join |
 | WHERE Clauses | Filter employees by department and salary with SQL WHERE conditions, returning only qualifying names and salaries. | https://www.tensortonic.com/study-plans/sql-basics/sql/sql-where-clauses |
+| Gmail Spam Filter |  | https://www.tensortonic.com/system-design/spam-filter |
 
 View my verified ML profile: [TensorTonic profile](https://www.tensortonic.com/profile/pritamsba2027)
 <!-- tensortonic:end -->
