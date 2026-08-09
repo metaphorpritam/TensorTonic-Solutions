@@ -8,6 +8,12 @@ def multi_groupby(data, group_cols, value_col, aggfunc):
 
     out = df.groupby(group_cols)[value_col].agg(aggfunc).reset_index().to_dict('list')
 
+    #out = pd.crosstab(
+        #df[value_col],
+        #df[group_cols],
+        #aggfunc = aggfunc
+    #).to_dict()
+
     return out 
 
     
